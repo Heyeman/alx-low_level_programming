@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *this is manin
+ *main - Entry point
  *
+ *Retun: Always 0 (Success)
  */
 
 int main(void)
