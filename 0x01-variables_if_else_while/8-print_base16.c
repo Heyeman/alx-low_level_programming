@@ -14,10 +14,10 @@ putchar(a + '0');
 a++;
 }
 a = 'a';
-while (a < 'g')
+while (a <= 'f')
 {
 putchar(a);
-b++;
+a++;
 }
 putchar('\n');
 return (0);
