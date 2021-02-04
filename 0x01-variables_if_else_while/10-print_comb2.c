@@ -9,20 +9,13 @@ int main(void)
 {
 int a = 0;
 int b = 0;
-while (a < 10)
+for (; a < 10; a++)
 {
-while (b < 10)
+for (; b < 10; b++)
 {
-putchar(a);
-putchar(b);
-if (a != 9 && b != 9)
-{
-putchar(',');
-putchar(' ');
+putchar(a + '0');
+putchar(b + '0');
 }
-b++;
-}
-a++;
 }
 return (0);
 }
