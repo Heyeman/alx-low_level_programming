@@ -7,16 +7,16 @@ A0;136;0c#include <stdio.h>
  */
 int main(void)
 {
-int a = 0;
-char b = 'a';
+char a = '0';
 while (a < 10)
 {
 putchar(a + '0');
 a++;
 }
-while (b < 'g')
+a = 'a';
+while (a < 'g')
 {
-putchar(b);
+putchar(a);
 b++;
 }
 putchar('\n');
