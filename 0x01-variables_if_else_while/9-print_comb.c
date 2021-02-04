@@ -15,6 +15,7 @@ while (b < 10)
 {
 putchar(a + '0');
 putchar(b + '0');
+putchar(', ');
 b++;
 }
 a++;
