@@ -11,7 +11,7 @@ int a = 0;
 while (a < 10)
 {
 putchar(a);
-if (a != 9)
+if (a != 57)
 {
 putchar(',');
 putchar(' ');
