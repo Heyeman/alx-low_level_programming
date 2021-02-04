@@ -7,17 +7,12 @@
  */
 int main(void)
 {
-char a = 0;
-char b = 0;
+int a = 0;
 while (a < 10)
 {
-while (b < 10)
-{
 putchar(a + '0');
-putchar(b + '0');
+if (a != 9)
 putchar(', ');
-b++;
-}
 a++;
 }
 return (0);
