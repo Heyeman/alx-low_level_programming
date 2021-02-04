@@ -7,15 +7,13 @@
  */
 int main(void)
 {
-int a = 0;
+int a = 1;
+putchar(0 + '0');
 while (a < 10)
-{
-putchar(a + '0');
-if (a != 9)
 {
 putchar(',');
 putchar(' ');
-}
+putchar(a + '0');
 a++;
 }
 return (0);
