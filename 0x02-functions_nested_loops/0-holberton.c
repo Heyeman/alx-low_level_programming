@@ -7,9 +7,9 @@ int _putchar(char c);
  */
 int main(void)
 {
-char word[9] = "Holberton";
+char word[10] = "Holberton";
 int a = 0;
-while (a < 10)
+while (a < 9)
 {
 _putchar(word[a]);
 a++;
