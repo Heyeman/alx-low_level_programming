@@ -1,10 +1,10 @@
 #include "_putchar.c"
 #include "holberton.h"
-#include "4-isalpha.c"
+#include "5-sign.c"
 
 int main(void)
 {
-  _putchar('h');
-_putchar(_isalpha('a') + '0');
+_putchar('H');
+ _putchar(print_sign(20020) + '0');
 return (0);
 }
