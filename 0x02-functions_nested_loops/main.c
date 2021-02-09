@@ -1,9 +1,10 @@
 #include "_putchar.c"
 #include "holberton.h"
-#include "2-print_alphabet_x10.c"
+#include "3-islower.c"
 
 int main(void)
 {
-print_alphabet_x10();
+  _putchar('h');
+_putchar(_islower('a') + '0');
 return (0);
 }
