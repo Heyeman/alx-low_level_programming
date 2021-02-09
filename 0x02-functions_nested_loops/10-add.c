@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
- * @c: para,
+ * add - function
+ * @c: param
  * @d: param
  * Return: 0
  * add - func
