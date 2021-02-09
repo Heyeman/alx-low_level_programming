@@ -1,16 +1,27 @@
+#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "holberton.h"
+
+
+
 /**
- * print_last_digit - func
- * @c: param
- * Return: 0
+ * print_last_digit - Entry.
+ *
+ * @n: an integer argument
+ *
+ * Return: Always 0.
  */
-int print_last_digit(int c)
+
+int print_last_digit(int n)
 {
-if (c < 0)
-c = -c;
-c = c % 10;
-_putchar(c + '0');
-return (c);
+	int m = n % 10;
+
+	if (m >= 0)
+	{
+		_putchar(m + '0');
+		return (m);
+	}
+
+	_putchar(-m + '0');
+	return (-m);
 }
