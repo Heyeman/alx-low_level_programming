@@ -1,10 +1,10 @@
 #include "_putchar.c"
 #include "holberton.h"
-#include "3-islower.c"
+#include "4-isalpha.c"
 
 int main(void)
 {
   _putchar('h');
-_putchar(_islower('a') + '0');
+_putchar(_isalpha('a') + '0');
 return (0);
 }
