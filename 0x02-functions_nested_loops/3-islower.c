@@ -2,6 +2,7 @@
 /**
  * _islower - func
  *
+ *@c - param
  * Return - succes
  */
 int _islower(int c)
