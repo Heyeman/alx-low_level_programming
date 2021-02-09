@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-char word[10] = "Holberton";
+char word[9] = "Holberton";
 int a = 0;
-while (a < 9)
+while (a < 10)
 {
 _putchar(word[a]);
 a++;
