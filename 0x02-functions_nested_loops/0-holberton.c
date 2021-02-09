@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include "holberton.h"
+#include "_putchar.c"
+
 
 /**
  * main - Entry point
@@ -11,9 +13,9 @@ char word[10] = "Holberton";
 int a = 0;
 while (a < 9)
 {
-putchar(word[a]);
+_putchar(word[a]);
 a++;
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
