@@ -79,12 +79,12 @@ A system call is a way for programs to interact with the operating system. Defin
    [read]: <http://man7.org/linux/man-pages/man2/read.2.html>
    [write]: <http://man7.org/linux/man-pages/man2/write.2.html>
    [close]: <http://man7.org/linux/man-pages/man2/close.2.html>
-   [project]: <https://github.com/02KellyV/holberton-system_engineering-devops/tree/master/0x01-shell_permissions>
+   [project]: <https://github.com/heyeman/alx-system_engineering-devops/tree/master/0x01-shell_permissions>
    [permissions]: <https://www.pluralsight.com/blog/it-ops/linux-file-permissions>
    [here]: <http://www.linfo.org/system_call.html>
   
 #### Author
-	Kelly Villa - kellyssj02@gmail.com
+	Heyeman Urgessa
 
 Always Ask Why
 ----
